@@ -28,3 +28,17 @@ background:#111;
 color:white;
 padding:10px;
 }
+
+.profile{
+width:150px;
+border-radius:50%;
+margin-bottom:10px;
+}
+
+.btn{
+background:#111;
+color:white;
+padding:10px 20px;
+text-decoration:none;
+border-radius:5px;
+}
