@@ -1,93 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Portfolio</title>
 
+<title>Sakshi Patel | Portfolio</title>
 
 <link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-<header>
-<h1>Patel Sakshi</h1>
-<p>Web Developer | MCA Student</p>
-<img src="image/profile.jpeg" alt="profile" class="profile">
-<h1>Sakshi Patel</h1>
-<p>MCA Student | Web Developer</p>
-</header>
+<div class="background"></div>
 
-<section id="about">
-<h2>About Me</h2>
-<p>I am an MCA student passionate about web development and programming.</p>
-</section>
+<!-- NAVBAR -->
 
-<section id="contact">
-<h2>Contact</h2>
+<nav>
 
-<p>Email: sakshipatel266@gmail.com</p>
+<div class="logo">
+    <img src="image/logo.jpeg" alt="logo">
+    <span>Sakshi Patel</span>
+</div>
 
-<p>
-<a href="https://github.com/sakshiipatel26">GitHub</a>
-</p>
-
-<p>
-<a href="https://www.linkedin.com/in/sakshi-patel-15174425b">LinkedIn</a>
-</p>
-
-</section>
-
-<section id="resume">
-<h2>Resume</h2>
-<a href="resume.pdf" download class="btn">Download Resume</a>
-</section>
-
-<section id="skills">
-<h2>Skills</h2>
 <ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-<li>PHP</li>
-<li>Python</li>
-<li>MySQL</li>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#certificates">Certificates</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
 </ul>
-</section>
 
-<section id="projects">
-<h2>Projects</h2>
+</nav>
 
-<div class="project">
-<h3>Furniture Sales & Inventory System</h3>
-<p>A Django based system for managing furniture sales, stock and AR model preview.</p>
-<a href="https://github.com/sakshiipatel26/django-furniture-and-sales-inventory">View Code</a>
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+<div class="hero-container">
+
+<div class="hero-text">
+
+<h1>Hello, I'm <span>Sakshi Patel</span></h1>
+
+<p>MCA Student | Web Developer</p>
+
+<a href="resume.pdf" download class="btn">Download Resume</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="image/profile.jpeg" alt="profile">
+
+</div>
+
 </div>
 
 </section>
 
-<form>
-<input type="text" placeholder="Your Name" required>
+<!-- ABOUT -->
+
+<section id="about" class="fade-in">
+
+<h2>About Me</h2>
+
+<p>
+I am an MCA student passionate about web development and software development.<br>
+I enjoy building web applications and learning modern technologies.
+</p>
+
+<div class="internship-box" class="fade-in">
+
+<h3>Internship Experience</h3>
+
+<p>
+<b>Web Development Intern – Rise Technologies, Anand</b><br>
+Worked on Django Furniture Sales & Inventory System with AR preview.<br>
+Tech: Django, Python, MySQL
+</p>
+
+</div>
+
+<div class="education-box fade-in">
+
+<h3>Education</h3>
+
+<p>
+
+<b>MCA – Master of Computer Applications</b><br>
+Charotar University of Science and Technology (CHARUSAT)<br>
+2025 – Present
+
 <br><br>
 
-<input type="email" placeholder="Your Email" required>
+<b>BCA – Bachelor of Computer Applications</b><br>
+Dharmsinh Desai University, Nadiad<br>
+First Class with Distinction
+
 <br><br>
 
-<textarea placeholder="Your Message"></textarea>
+<b>12th – Higher Secondary (Commerce)</b><br>
+Gujarat Board • 65.6%
+
 <br><br>
 
-<button type="submit">Send</button>
-</form>
+<b>10th – Secondary School</b><br>
+Gujarat Board • 73%
 
-<section id="contact">
+</p>
+
+</div>
+
+</section>
+
+<section id="certificates">
+
+<h2 class="section-title">Certificates</h2>
+
+<div class="certificates-container">
+
+<div class="certificate-card">
+
+<img src="image/Python.jpeg" alt="certificate">
+
+<h4>Python Data Structures</h4>
+
+<a href="https://coursera.org/share/e6a5d588702e78faa5e609314f4b5258" target="_blank">View Certificate</a>
+
+</div>
+
+
+<div class="certificate-card">
+
+<img src="image/Django.jpeg" alt="certificate">
+
+<h4>Django Application Development with SQL and Database</h4>
+
+<a href="https://coursera.org/share/cc6939b91c5a8d00a5346f562a39aa55" target="_blank">View Certificate</a>
+
+</div>
+
+<div class="certificate-card">
+
+<img src="image/Angular.jpeg" alt="certificate">
+
+<h4>Angular Fundamentals: Building Responsive Web Apps with Ease</h4>
+
+<a href="https://coursera.org/share/c841e0f57f1f725cf898eae92fa8f81e" target="_blank">View Certificate</a>
+
+</div>
+
+<div class="certificate-card">
+
+<img src="image/MongoDB.jpeg" alt="certificate">
+
+<h4>Introduction to MongoDB</h4>
+
+<a href="https://coursera.org/share/7bb2f209f3d87088fc12d84fc648c324" target="_blank">View Certificate</a>
+
+</div>
+
+<div class="certificate-card">
+
+<img src="image/Nodejs.png" alt="certificate">
+
+<h4>Developing Back-End Apps with Node.js and Express</h4>
+
+<a href="https://coursera.org/share/60515703fd0df4150d8886a0c4959e5a" target="_blank">View Certificate</a>
+
+</div>
+
+<div class="certificate-card">
+
+<img src="image/Ajax_Intro.png" alt="certificate">
+
+<h4>Introduction to Ajax and Mini-Projects</h4>
+
+<a href="https://coursera.org/share/81b6301d5625182b229151ab15036c0a" target="_blank">View Certificate</a>
+
+</div>
+
+<div class="certificate-card">
+
+<img src="image/Ajax.png" alt="certificate">
+
+<h4>AJAX Authentication and Cross-Origin Requests</h4>
+
+<a href="https://coursera.org/share/6acde82e6063b48912ec05d76bce0da6" target="_blank">View Certificate</a>
+
+</div>
+
+<div class="certificate-card">
+
+<img src="image/Chatgpt.png" alt="certificate">
+
+<h4>Prompt Engineering for ChatGPT</h4>
+
+<a href="https://coursera.org/share/c47f3a9aa4d74283563bd81c4b3a1762" target="_blank">View Certificate</a>
+
+</div>
+
+<div class="certificate-card">
+
+<img src="image/github.png" alt="certificate">
+
+<h4>Getting started with Git and Github</h4>
+
+<a href="https://coursera.org/share/d0302ab90b31ef324100b6262b7a8a2d" target="_blank">View Certificate</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills" class="fade-in">
+
+<h2>Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Python</div>
+<div class="skill">PHP</div>
+<div class="skill">MySQL</div>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects" class="fade-in">
+
+<h2>Projects</h2>
+
+<div class="projects-grid">
+
+<div class="project-card">
+
+<img src="image/project.png">
+
+<h3>Furniture Sales & Inventory System</h3>
+
+<p>
+Django based inventory and furniture sales system with AR model preview.
+This project was developed collaboratively with a teammate.
+</p>
+
+<a href="https://github.com/sakshiipatel26/django-furniture-and-sales-inventory">
+View Code
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="fade-in">
+
 <h2>Contact</h2>
-<p>Email: sakshiipatel266@gmail.com</p>
+
+<p>Email: sakshipatel266@gmail.com</p>
+
+<div class="contact-links">
+
+<a href="https://github.com/sakshiipatel26">GitHub</a>
+<a href="https://www.linkedin.com/in/sakshi-patel-15174425b">LinkedIn</a>
+
+</div>
+
 </section>
 
 <footer>
+
 <p>© 2026 Sakshi Patel</p>
+
 </footer>
 
+<script src="script.js"></script>
+
 </body>
+
 </html>
