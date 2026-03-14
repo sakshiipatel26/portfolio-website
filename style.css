@@ -283,28 +283,36 @@ transform:translateY(0);
 
 .skills-grid{
 display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:18px;
-max-width:600px;
+grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+gap:25px;
+max-width:500px;
 margin:auto;
-margin-top:30px;
+margin-top:40px;
 }
 
 .skill{
 background:rgba(255,255,255,0.08);
 border:1px solid rgba(255,255,255,0.2);
-color:white;
-backdrop-filter:blur(10px);
-padding:12px 22px;
-border-radius:10px;
+border-radius:12px;
+padding:20px;
 text-align:center;
+backdrop-filter:blur(10px);
 transition:0.3s;
 }
 
 .skill:hover{
-transform:translateY(-4px);
-box-shadow:0 6px 18px rgba(0,0,0,0.4);
-background:rgba(255,255,255,0.15);
+transform:translateY(-6px);
+box-shadow:0 8px 20px rgba(0,0,0,0.4);
+}
+
+.skill i{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.skill p{
+font-size:14px;
+color:#ccc;
 }
 
 /* PROJECTS */
